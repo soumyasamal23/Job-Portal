@@ -1,0 +1,20 @@
+.I {
+	height:30%;
+	width:30%;
+}
+#jobtable td, #jobtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#jobtable tr:nth-child(even){background-color: #f2f2f2;}
+
+#jobtable tr:hover {background-color: #ddd;}
+
+#jobtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
